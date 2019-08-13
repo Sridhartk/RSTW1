@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="in.roytalsundaram.scripts.SelectDemo">
+        <methods>
+          <include name="testselect"/>
+        </methods>
+      </class> <!-- in.roytalsundaram.scripts.SelectDemo -->
+      <class name="in.roytalsundaram.scripts.TWOCRE1">
+        <methods>
+          <include name="testTWOCR1"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- in.roytalsundaram.scripts.TWOCRE1 -->
+      <class name="in.roytalsundaram.scripts.TWOCRE">
+        <methods>
+          <include name="testTWOCR"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- in.roytalsundaram.scripts.TWOCRE -->
+      <class name="in.roytalsundaram.scripts.Invalid">
+        <methods>
+          <include name="openApp"/>
+          <include name="twowheelerinsu"/>
+        </methods>
+      </class> <!-- in.roytalsundaram.scripts.Invalid -->
+      <class name="in.roytalsundaram.scripts.TwoWheelerInusurence">
+        <methods>
+          <include name="openApp"/>
+          <include name="twowheelerinsu"/>
+        </methods>
+      </class> <!-- in.roytalsundaram.scripts.TwoWheelerInusurence -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

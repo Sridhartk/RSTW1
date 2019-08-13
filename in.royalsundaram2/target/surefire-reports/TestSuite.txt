@@ -1,0 +1,41 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 5, Errors: 0, Skipped: 2, Time elapsed: 220.529 s <<< FAILURE! - in TestSuite
+testTWOCR1(in.roytalsundaram.scripts.TWOCRE1)  Time elapsed: 0.045 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/WorkbookFactory
+	at in.roytalsundaram.scripts.TWOCRE1.testTWOCR1(TWOCRE1.java:20)
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.WorkbookFactory
+	at in.roytalsundaram.scripts.TWOCRE1.testTWOCR1(TWOCRE1.java:20)
+
+testselect(in.roytalsundaram.scripts.SelectDemo)  Time elapsed: 74.411 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate option with index: 2
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QMLJP549', ip: '192.168.111.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+	at in.roytalsundaram.scripts.SelectDemo.testselect(SelectDemo.java:61)
+
+openApp(in.roytalsundaram.scripts.Invalid)  Time elapsed: 95.855 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QMLJP549', ip: '192.168.111.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: ChromeDriver
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:41516/status] to be available after 20002 ms
+Caused by: java.util.concurrent.TimeoutException
+
+twowheelerinsu(in.roytalsundaram.scripts.TwoWheelerInusurence)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/WorkbookFactory
+	at in.roytalsundaram.scripts.TwoWheelerInusurence.twowheelerinsu(TwoWheelerInusurence.java:15)
+
+openApp(in.roytalsundaram.scripts.TWOCRE)  Time elapsed: 20.392 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QMLJP549', ip: '192.168.111.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: ChromeDriver
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:24505/status] to be available after 20005 ms
+Caused by: java.util.concurrent.TimeoutException
+
